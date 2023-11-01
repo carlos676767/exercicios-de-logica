@@ -5,7 +5,7 @@ let n1 = parseInt(prompt("Digite um valor da tabela anterior"))
 
 switch (n1) {
    case 1: {
-    for (let i = 0; i <= 10; i++) {
+    for (let i = 0; i <= 10 ; i++) {
        console.log(i)   
     }
     break
