@@ -1,4 +1,4 @@
-//entrada
+
 let quantoscasos = parseInt(prompt(`Quantos casos voce ira digitar?`))
 let somar = 0
 for(let i = 0; i < quantoscasos; ++i){
@@ -9,8 +9,3 @@ for(let i = 0; i < quantoscasos; ++i){
 
 let dividir = somar / quantoscasos
 console.log(`a media entre os numeros e de ${dividir.toFixed(2)}`)
-
-
-
-
-
