@@ -1,8 +1,10 @@
-const digitenumeros = parseInt(prompt(`Digite um valor em quantas vezes`))
+                                    //ENTRADA
+const digitenumeros = parseInt(prompt(`Digite um valor em quantas vezes`)) 
 
-let maiorposicao = []
+let maiorposicao = [] 
 let maiorvalor = []
 
+                                //PROCESSAMENTO
 for (let i = 0; i < digitenumeros; i++) {
     let digite = parseInt(prompt(`Digite ${digitenumeros} numeros`))
     if (digite > maiorvalor) {
@@ -10,4 +12,5 @@ for (let i = 0; i < digitenumeros; i++) {
     }
     
 }
+                                  //SAIDA
 console.log(`o maior valor foi`, maiorvalor)
