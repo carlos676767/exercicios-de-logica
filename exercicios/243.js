@@ -9,7 +9,7 @@ const sucessiva = () => {
       break;
     }
   }
-  return array
+
 };
 
 const duplicata = sucessiva()
@@ -35,7 +35,6 @@ const indiceNumero = () => {
     console.log(`o numero nao se encontra`);
    }
   }
-  return i
 }; 
 
 
