@@ -9,7 +9,6 @@ const informacoes = () => {
     }
 
     const continuar = confirm(`Deseja continuar?`);
-
     if (!continuar) {
       break;
     }
