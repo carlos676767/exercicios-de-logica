@@ -16,5 +16,4 @@ const contarValores = () => {
     O total de valores fora do intervalo de 0 a 20 é: ${contadorFora}`);
   };
   
-  contarValores();
-  
+  contarValores();  
