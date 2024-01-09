@@ -24,4 +24,5 @@ const mexerValores = () => {
   console.log(`o indice do elemento e ${indice}`);
 };
 
+
 mexerValores();
