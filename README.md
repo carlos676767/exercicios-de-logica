@@ -5,4 +5,5 @@ Bem-vindo ao meu repositório! Este é um espaço onde compartilho exercícios q
 ## Linguagens de Programação
 
 - JavaScript
+- typeScript
 - Outras linguagens de programação
