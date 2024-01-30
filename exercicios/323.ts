@@ -12,4 +12,5 @@ const doubleSort = (list: number[]) => {
   return list
 }
 
+
 console.log(doubleSort(lista))
