@@ -7,3 +7,5 @@ if (inverter === nome) {
 }else{
     console.log(`nao e `);
 }
+
+ "nome: carlos "
