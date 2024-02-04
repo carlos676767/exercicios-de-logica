@@ -8,4 +8,4 @@ if (inverter === nome) {
     console.log(`nao e `);
 }
 
- "nome: carlos "
+ "nome":"carlos"
