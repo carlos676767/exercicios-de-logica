@@ -18,3 +18,4 @@ if(palavra === palalindromo){
 }else{
   console.log(`nao e`)
 }
+
