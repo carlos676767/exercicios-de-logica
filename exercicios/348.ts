@@ -3,7 +3,7 @@
 const substituirVogais = () => {
   const nome: string = `carlos`; // a, o
   const converterEmArray = nome.split(``);
-  const arrayDeVogais: string[] = [`a`, `i`, `o`, `u`];
+  const arrayDeVogais: string[] = [`a`, `i`, `o`, `u`,`e`];
   const novoArray: string[] = [];
   for (let i = 0; i < converterEmArray.length; ++i) {
     if (arrayDeVogais.includes(converterEmArray[i])) {
