@@ -4,7 +4,7 @@ const validarSenha = () => {
     const maiuscula = /[A-Z]/;
     const minuscula = /[a-z]/;
     const numeros = /\d/;
-  
+
     if (minhaSenha.length < 8) {
       console.log("A senha deve ter no mínimo 8 caracteres");
       return;
