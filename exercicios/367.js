@@ -3,7 +3,6 @@ const retornarValorArray = () => {
   const retornarValor = list.at(0); // recebe a posicao e retorna um valor
 
   let achado = false;
-  
   if (retornarValor != undefined) {
     achado = true;
     console.log(achado, retornarValor);
