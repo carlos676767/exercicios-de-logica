@@ -1,14 +1,8 @@
-const array = [1, 2, 3, 4, 5, 3];
-const array2 = [];
+const array = [1, 2, 3, 4, 5, 3, 5, 5, 3];
+const numerosNaoRepitidos = new Set();
 
-for (let i = 0; i < array.length; i++) {
-  if (array2.includes(array[i])) {
-    console.log("ha numeros repetidos", i);
-    break;
-  } else {
-    array2.push(array[i]);
-    console.log("nao ha valores repetidos", i);
-  }
+for (let j = 0; j < array.length; j++) {
+  if (numerosNaoRepitidos.has(array[j])) {
+    console.log("numeros repitidos", array[j]);
+  } else console.log(numerosNaoRepitidos.add(array[j]));
 }
-
-console.log(array2);
