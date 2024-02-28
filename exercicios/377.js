@@ -6,3 +6,4 @@ for (let j = 0; j < array.length; j++) {
     console.log("numeros repitidos", array[j]);
   } else console.log(numerosNaoRepitidos.add(array[j]));
 }
+
