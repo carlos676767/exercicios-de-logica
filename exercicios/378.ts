@@ -33,21 +33,21 @@ const processarInformacoesLivros = (informacoesLivros: string) => {
 
 while (true) {
   let informacoesLivros: string | null = prompt(`Digite as informações do livro:
-- Título do livro
-- Autores do livro
-- Ano de publicação
-- Número de páginas`);
+  - Título do livro
+  - Autores do livro
+  - Ano de publicação
+  - Número de páginas`);
   if (informacoesLivros != null) {
     processarInformacoesLivros(informacoesLivros);
   }
 
   const buscarInformacoesDeLivros = () => {
     let buscar: string | null = prompt(`Digite as informações do livro:
-1- para titulo do livro
-2- para autores
-3- Ano ano de publicacao
-4- para Número de páginas
-5 - lista todos os livros`);
+  1- para titulo do livro
+  2- para autores
+  3- Ano ano de publicacao
+  4- para Número de páginas
+  5 - lista todos os livros`);
     switch (buscar) {
       case "1":
         const livroBsucado: string | null = prompt(
@@ -132,7 +132,7 @@ while (true) {
         break;
     }
   };
-  
+
   buscarInformacoesDeLivros();
   const parar = confirm("Deseja parar ?");
   if (!parar) {
