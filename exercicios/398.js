@@ -8,4 +8,4 @@ function getMiddle(s) {
     return palavra;
   }
   
-getMiddle(``);
+getMiddle(`ola`);
