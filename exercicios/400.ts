@@ -14,4 +14,5 @@ const pessoa: Pessoa = {
 
 
 const {nome, idade, estado} = pessoa
-console.log(nome);
+const {nome: silva} = pessoa
+console.log(silva);
