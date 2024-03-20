@@ -18,16 +18,16 @@
 // o programa deve retornar True para pelo menos uma delas.
 
 
-const somarSubConjuntos = (lista: number[],alvo: number) => {
-    let somar: number = 0;
-    for (const i of lista) {
-      somar += i;
-      if (somar == alvo) {
-        console.log("Valor alvo antingido");
-        return
-      }
+const somarSubConjuntos = (lista: number[], alvo: number) => {
+  let somar: number = 0;
+  for (const i of lista) {
+    somar += i;
+    if (somar == alvo) {
+      console.log("Valor alvo antingido");
+      return;
     }
-    console.log("alvo nao atingido")
-  };
-  
-  somarSubConjuntos([2, 4, 6, 8], 12);
+  }
+  console.log("alvo nao atingido");
+};
+
+somarSubConjuntos([2, 4, 6, 8], 12);
