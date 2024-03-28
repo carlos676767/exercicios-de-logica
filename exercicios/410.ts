@@ -25,12 +25,17 @@ let depositivo: number = 0;
 let saques: number = 0;
 let consultasSaldos: number = 0;
 
-const operacoesClientes = () => {
-  setInterval(() => {
+const obterOperacoes = () => {
     const operacoes: string[] = ["saque", "deposito", "consultas"];
     const gerarOperacoes = Math.floor(Math.random() * operacoes.length);
     const pegarOperacao = operacoes[gerarOperacoes];
-    switch (pegarOperacao) {
+    return pegarOperacao
+}
+
+
+const operacoesClientes = () => {
+  setInterval(() => {
+    switch (obterOperacoes()) {
       case "saque":
         ++saques;
         break;
