@@ -19,5 +19,5 @@ const doubleSort = (numero: string) => {
     converterStringEmNumero()
     return pegarArrayConvertida
   }
-  console.log(doubleSort("52813"))
+  console.log(doubleSort("52813"))410
   

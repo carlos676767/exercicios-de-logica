@@ -31,3 +31,4 @@ const somarSubConjuntos = (lista: number[], alvo: number) => {
 };
 
 somarSubConjuntos([2, 4, 6, 8], 12);
+
