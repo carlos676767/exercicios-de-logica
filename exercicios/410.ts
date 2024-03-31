@@ -63,7 +63,3 @@ const removerClientesAtendidos = () => {
 chegadaClientes();
 removerClientesAtendidos();
 operacoesClientes();
-
-
-
-
