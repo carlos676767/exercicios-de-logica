@@ -8,7 +8,6 @@ const contarVogais = () => {
       ++contador;
     }
   }
-
   alert(`existe ${contador} vogais`);
 };
 
