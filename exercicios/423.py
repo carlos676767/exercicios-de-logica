@@ -6,3 +6,4 @@ def saber_par_ou_impar(num1):
 
 numeros = int(input("Digite um número para eu saber se é par ou ímpar: "))
 saber_par_ou_impar(numeros)
+
