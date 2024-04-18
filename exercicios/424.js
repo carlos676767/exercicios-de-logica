@@ -9,6 +9,7 @@ function highestRank(arr) {
   }
   let pegarMaiorValorContado = null;
   let retornarValorDeAcordoComContados = null;
+  
   for (let i in contador) {
     if (contador[i] > pegarMaiorValorContado) {
       pegarMaiorValorContado = contador[i];
