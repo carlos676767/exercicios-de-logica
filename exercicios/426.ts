@@ -2,7 +2,7 @@ const encontrarPares = () => {
   const armazenarValoresPegos: string[] = [];
   const pares: number[] = [];
   while (true) {
-    const numeros: string | null = prompt("digite uma lista de numeros");
+    const numeros: string | null = prompt("digite um numero");
     numeros != null ? armazenarValoresPegos.push(numeros) : null;
     const continuar = confirm("Deseja continuar ?");
     if (!continuar) {
