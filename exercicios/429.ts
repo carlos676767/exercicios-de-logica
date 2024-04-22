@@ -6,9 +6,10 @@
 const retornarComprimentoDaUltimaString = (palavra: string) => {
   const transformarEmArray: string[] = palavra.split(" ");
   const obterUltimaString = transformarEmArray.pop();
-  const obterComprimentoString =obterUltimaString !== undefined ? obterUltimaString.length : null;
+  const obterComprimentoString = obterUltimaString !== undefined ? obterUltimaString.length : null;
   return obterComprimentoString;
 };
+
 
 console.log(
   retornarComprimentoDaUltimaString(
