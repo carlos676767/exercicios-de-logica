@@ -18,5 +18,5 @@ class Pessoa {
 //instancia
 const novaPessoa = new Pessoa("carlos", 20, 441114);
 
-//chamando metodo da classe 
-novaPessoa.acoesPessoa()
+//chamando metodo da classe
+novaPessoa.acoesPessoa();
