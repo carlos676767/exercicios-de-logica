@@ -14,92 +14,95 @@
         }
     </style>
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Produtos</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Cadastro de Produtos</h1>
-        <form id="productForm">
-            <div class="form-group">
-                <label for="productName">Nome do Produto:</label>
-                <input type="text" id="productName" name="productName" required>
-            </div>
-            <div class="form-group">
-                <label for="productPrice">Preço do Produto:</label>
-                <input type="number" id="productPrice" name="productPrice" min="0" step="0.01" required>
-            </div>
-            <div class="form-group">
-                <label for="productQuantity">Quantidade:</label>
-                <input type="number" id="productQuantity" name="productQuantity" min="0" step="1" required>
-            </div>
-            <button type="submit">Cadastrar Produto</button>
-        </form>
-    </div>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
 
-<style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Produtos</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    <body>
+        <div class="container">
+            <h1>Cadastro de Produtos</h1>
+            <form id="productForm">
+                <div class="form-group">
+                    <label for="productName">Nome do Produto:</label>
+                    <input type="text" id="productName" name="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Preço do Produto:</label>
+                    <input type="number" id="productPrice" name="productPrice" min="0" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="productQuantity">Quantidade:</label>
+                    <input type="number" id="productQuantity" name="productQuantity" min="0" step="1" required>
+                </div>
+                <button type="submit">Cadastrar Produto</button>
+            </form>
+        </div>
+    </body>
 
-h1 {
-    text-align: center;
-}
+    </html>
 
-.form-group {
-    margin-bottom: 20px;
-}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-label {
-    display: block;
-    font-weight: bold;
-}
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-input[type="text"],
-input[type="number"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+        h1 {
+            text-align: center;
+        }
 
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+        .form-group {
+            margin-bottom: 20px;
+        }
 
-button:hover {
-    background-color: #0056b3;
-}
+        label {
+            display: block;
+            font-weight: bold;
+        }
 
-</style>
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 
     <script src="438.js"></script>
 </body>
+
 </html>
