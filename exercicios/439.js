@@ -1,12 +1,6 @@
 // Dado um array de usuarios(cod,idade,nome)
-// ordene ele de 3 maneiras
 
-// 1- Ordene por idade de forma crescente
-// 2- Ordene por nome em ordem alfabetica
-// 3- Ordene por idade e nome exemplo:
-
-// Array de entrada: [{idade:2,nome:"teste"},{idade:1,nome:"abnin"},{idade:1,nome:"clarinha"}]
-// Array de saida: [{idade:1,nome:"clarinha"},{idade:1,nome:"abnin"},{idade:2,nome:"teste"}]
+// 1- Ordene por idade de forma crescente[x]
 
 const arr = [
   { idade: 1, nome: "clarinha" },
@@ -44,6 +38,4 @@ const ordenarOrdemCresnte = (array) => {
   return array;
 };
 
-console.log(ordenarOrdemCresnte(arr));
-
-
+ordenarOrdemCresnte(arr);
