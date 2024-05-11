@@ -138,20 +138,20 @@ const listarProdutosMaisCaros = ((): void => {
 })
 
 
-// let menor: number = 0
-// let produtoBarato: any = null
-// const obterProdutoMaisBarato = (): void => {
-//   if (estoqueProdutos.length === 0) {
-//       mensagemVazio();
-//   } else {
-//       for (const i of estoqueProdutos) {
-//           if (menor < i["preco"] ) {
-//               menor = i["preco"];
-//               produtoBarato = i
-//           }
-//       }
-//       alert(`produto mais barato encontrado ${JSON.stringify(produto)}`);
-//   }
-// }
+let menor: number = 0
+let produtoBarato: any = null
+const obterProdutoMaisBarato = (): void => {
+  if (estoqueProdutos.length === 0) {
+      mensagemVazio();
+  } else {
+      for (const i of estoqueProdutos) {
+          if (menor < i["preco"] ) {
+              menor = i["preco"];
+              produtoBarato = i
+          }
+      }
+      alert(`produto mais barato encontrado ${JSON.stringify(produto)}`);
+  }
+}
 
-// loopAdicionarProdutos();
+loopAdicionarProdutos();
