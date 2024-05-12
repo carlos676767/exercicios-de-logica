@@ -16,11 +16,11 @@ const divisaoSegura = (n1: number, n2: number) => {
     if (n2 === 0 || divisao === 0) {
       throw new Error("erro");
     }
-    return divisao;
   } catch (error) {
     console.error(error);
+  } finally {
+    return divisao;
   }
-  return divisao;
 };
 
 console.log(divisaoSegura(1, 25));
