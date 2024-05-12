@@ -1,13 +1,12 @@
 const apiTestes = async () => {
   let n = 10;
   try {
-    const data = await fetch("https://jsonplaceholder.typicode.com/comments");
-    const response = await data.json();
+    //tenta executar um codigo
   } catch (error) {
-    console.error("error");
+    //serve para tratar os erros
   } finally {
     n = 0;
-    console.log(n);
+    //serve para indepente de oq acontece executar esse bloco
   }
 };
 
