@@ -1,21 +1,18 @@
-                                 //tenho X IDADE POSSO DIRIGIR?
-                                            
-                                                     //entrada
+//tenho X IDADE POSSO DIRIGIR?
 
-let anodenascimento = parseInt(prompt("digite seu anodenascimento"))
-let anoatual = parseInt(prompt("digite o ano atual"))
+//entrada
 
-                                            //processamento
+let anodenascimento = parseInt(prompt("digite seu anodenascimento"));
+let anoatual = parseInt(prompt("digite o ano atual"));
 
-let idade = anoatual - anodenascimento
+//processamento
 
+let idade = anoatual - anodenascimento;
 
-                                            //controle
-
+//controle
 
 if (idade >= 18) {
-    alert("Voce ja pode dirigir")
-} else{
-    alert("Voce nao pode")
+  alert("Voce ja pode dirigir");
+} else {
+  alert("Voce nao pode");
 }
-
