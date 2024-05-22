@@ -1,5 +1,10 @@
-[
-    {
-        "apple": 500
-    }
-]
+{
+    "nomes": [
+        "João",
+        "Maria",
+        "Carlos",
+        "Ana",
+        "Pedro",
+        "Mariana"
+    ]
+}
