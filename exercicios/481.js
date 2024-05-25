@@ -7,7 +7,7 @@ function findAverage(array) {
     } else {
         const contarNumeros = array.map(callback => {
             somar += callback
-            media = somar/array.length
+            media = somar / array.length
         })
     }
     return media
