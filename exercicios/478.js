@@ -6,3 +6,4 @@ Object.freeze(pessoas)
 pessoas.nome = 'joao'
 copia.nome = 'joao'
 console.log(pessoas);
+
