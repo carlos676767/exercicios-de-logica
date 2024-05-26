@@ -12,3 +12,6 @@ function* contarVogais(nome) {
 }
 const gerador = contarVogais('carlos henrique');
 console.log(gerador.next());
+console.log(gerador.next());
+console.log(gerador.next());
+console.log(gerador.next());
