@@ -1,0 +1,2 @@
+este e um texto de exemplo node js lendo fora do meu aqruivo.
+
