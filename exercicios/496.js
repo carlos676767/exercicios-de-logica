@@ -1,2 +1,3 @@
-const exportar = require("./495")
-console.log(exportar(5,5));
+const exportar = require("./495");
+const testes = exportar.somar;
+console.log(testes(5,5));
