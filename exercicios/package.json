@@ -1,0 +1,14 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao meu repositório! Este é um espaço onde compartilho exercícios que fiz em várias linguagens de programação, incluindo JavaScript. Este repositório é mantido regularmente e novos exercícios são adicionados com frequência.",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
