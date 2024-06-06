@@ -12,3 +12,12 @@
 //     const expected = [ 4, 20.6, 15.6, 3.8, 12.2, 16.2,  7.4, 15.2, 7.6, 24.2, 11.6, 27.4, 26.6,  39,  5.8, 13.6, 13.2, 31.4, 5.8, 17.4 ]
 //     expect(notas(array1, array2)).toEqual(expected);
 // })
+
+const valoresUnicos = require("./506")
+
+test("valores unicos", () => {
+    const inicio =  [45, 2, 9, 8, 3, 85, 45, 3, 9, 25, 0, 7,45,45,45,85,85,7]
+    const resultado = [45, 2, 9, 8, 3, 85, 25, 0, 7]
+    expect(valoresUnicos(inicio)).toStrictEqual(resultado)
+})
+
