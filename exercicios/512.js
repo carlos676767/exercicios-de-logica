@@ -10,4 +10,4 @@ const buscarValorUnico = (arr, callback) => {
 
 buscarValorUnico([4, 4, 8, 9, 25, 41, 6, 7, 3], (callback) => {
   console.log(callback);
-});
+})

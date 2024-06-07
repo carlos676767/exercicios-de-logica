@@ -13,11 +13,12 @@
 //     expect(notas(array1, array2)).toEqual(expected);
 // })
 
-const valoresUnicos = require("./506")
+// const valoresUnicos = require("./506")
 
-test("valores unicos", () => {
-    const inicio =  [45, 2, 9, 8, 3, 85, 45, 3, 9, 25, 0, 7,45,45,45,85,85,7]
-    const resultado = [45, 2, 9, 8, 3, 85, 25, 0, 7]
-    expect(valoresUnicos(inicio)).toStrictEqual(resultado)
-})
+// test("valores unicos", () => {
+//     const inicio =  [45, 2, 9, 8, 3, 85, 45, 3, 9, 25, 0, 7,45,45,45,85,85,7]
+//     const resultado = [45, 2, 9, 8, 3, 85, 25, 0, 7]
+//     expect(valoresUnicos(inicio)).toStrictEqual(resultado)
+// })
+
 
