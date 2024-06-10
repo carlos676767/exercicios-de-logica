@@ -2,12 +2,12 @@ function sortArray(array) {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
       if (array[i] < array[j]) {
-        let temp = array[i]
-        array[i] = array[j]
-        array[j] = temp
+        let temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
       }
     }
   }
-  return array
+  return array;
 }
-console.log(sortArray([9,8,7,5]));
+console.log(sortArray([9, 8, 7, 5]));
