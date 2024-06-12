@@ -22,6 +22,7 @@ const reqHttpGet = () => {
     }
   });
 };
+
 reqHttpGet()
   .then((data) => {
     console.log(data);
