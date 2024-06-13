@@ -1,5 +1,5 @@
 algoritmos 
-- lógica de programação 
+- lógica de programação[x]
 - variáveis constantes.
 - tipos de dados.
 - operadores e condicionais
@@ -28,3 +28,5 @@ algoritmos
 - funçao iife 
 - closures 
 - objetos
+- setTimout
+- set interval
