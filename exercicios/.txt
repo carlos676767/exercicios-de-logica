@@ -1,0 +1,30 @@
+algoritmos 
+- lógica de programação 
+- variáveis constantes.
+- tipos de dados.
+- operadores e condicionais
+- estruturas de repiticao
+- estruturas de dados.
+- funções.
+- filas
+- pilas 
+- set
+- fs 
+- json 
+- asnyc 
+- promises 
+- callbacks
+- eventloop 
+- programação sync 
+- apis 
+- integrar mongodb
+- métodos js 
+- tratamento de erros try/catch 
+- funçao genetor 
+- protocolo tcp 
+- emmities 
+- Built-in Objects
+- módulo path 
+- funçao iife 
+- closures 
+- objetos
