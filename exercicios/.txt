@@ -4,10 +4,10 @@ algoritmos
 - tipos de dados[x]
 - operadores e condicionais[x]
 - estruturas de repiticao[x]
-- estruturas de dados.
+- estruturas de dados[x]
 - funções.
-- filas
-- pilas 
+- filas[x]
+- pilas[x]
 - set
 - fs 
 - json 
@@ -34,4 +34,4 @@ algoritmos
 - decremento
 - operadores relacionais
 - objetos math
-
+- escopo 
