@@ -5,11 +5,11 @@ algoritmos
 - operadores e condicionais[x]
 - estruturas de repiticao[x]
 - estruturas de dados[x]
-- funções.
+- funções [x]
 - filas[x]
 - pilas[x]
-- set
-- fs 
+- set[x]
+- fs [x]
 - json 
 - asnyc 
 - promises 
