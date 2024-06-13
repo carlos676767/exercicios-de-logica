@@ -32,7 +32,7 @@ algoritmos
 - set interval [x]
 - incremento [x]
 - decremento [x]
-- operadores relacionais
+- operadores relacionais [x]
 - objetos math
 - escopo 
 - hositing
