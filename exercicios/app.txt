@@ -35,4 +35,4 @@ algoritmos
 - operadores relacionais [x]
 - objetos math [x]
 - escopo [x]
-- hositing
+- hositing[x]
