@@ -16,12 +16,12 @@ algoritmos
 - callbacks[x]
 - eventloop  [x]
 - programação sync []
-- apis http request
-- integrar mongodb
-- métodos js 
+- apis http request[x]
+- integrar mongodb[x]
+- métodos js [x]
 - tratamento de erros try/catch [x]
-- funçao genetor 
-- protocolo tcp 
+- funçao genetor []
+- protocolo tcp [x]
 - emmities 
 - Built-in Objects
 - módulo path 
