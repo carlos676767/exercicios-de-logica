@@ -33,6 +33,6 @@ algoritmos
 - incremento [x]
 - decremento [x]
 - operadores relacionais [x]
-- objetos math
-- escopo 
+- objetos math [x]
+- escopo [x]
 - hositing
