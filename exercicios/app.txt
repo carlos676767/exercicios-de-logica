@@ -26,10 +26,10 @@ algoritmos
 - Built-in Objects[x]
 - módulo path [x]
 - funçao iife [x]
-- closures 
+- closures [x]
 - objetos[x]
-- setTimout
-- set interval
+- setTimout [x]
+- set interval [x]
 - incremento [x]
 - decremento [x]
 - operadores relacionais
