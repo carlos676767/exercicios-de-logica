@@ -3,7 +3,7 @@ algoritmos
 - variáveis constantes[x]
 - tipos de dados[x]
 - operadores e condicionais[x]
-- estruturas de repiticao 
+- estruturas de repiticao[x]
 - estruturas de dados.
 - funções.
 - filas
