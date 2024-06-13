@@ -10,6 +10,8 @@ const consumirApi = async (sucesso, rejeitado) => {
     sucesso(data);
   } catch (error) {
     rejeitado("error");
+  }finally{
+    console.log('pode ter havido um err');
   }
 };
 

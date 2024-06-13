@@ -11,15 +11,15 @@ algoritmos
 - set[x]
 - fs [x]
 - json[x]
-- asnyc 
-- promises 
-- callbacks
-- eventloop 
+- asnyc[x]
+- promises [x]
+- callbacks[x]
+- eventloop  []
 - programação sync 
 - apis 
 - integrar mongodb
 - métodos js 
-- tratamento de erros try/catch 
+- tratamento de erros try/catch [x]
 - funçao genetor 
 - protocolo tcp 
 - emmities 
