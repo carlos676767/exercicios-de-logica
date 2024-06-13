@@ -16,7 +16,7 @@ algoritmos
 - callbacks[x]
 - eventloop  [x]
 - programação sync []
-- apis 
+- apis http request
 - integrar mongodb
 - métodos js 
 - tratamento de erros try/catch [x]
