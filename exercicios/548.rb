@@ -1,15 +1,13 @@
-require 'httparty'
-require 'sinatra'
-require 'json'
-
-
-set :port, 8080
-get '/' do
-    content_type :json
-    { message: 'Hello, world!' }.to_json
+class Carro
+  def initialize(modelo, placa)
+    this.modelo = modelo
+    this.placa = placa
   end
-  
+end
 
-  
-response = HTTParty.get('http://localhost:8080/')
-puts response.body
+obj = {
+    nome: "carlos"
+}
+
+clonar = obj.clone()
+puts clonar
