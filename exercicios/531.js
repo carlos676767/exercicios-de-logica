@@ -18,7 +18,7 @@ const idade = 8;
 // condicionais
 if (idade >= 18) {
   console.log("maior de idade");
-} else if (idade >= 1 && idade <= 0) {
+} else if (idade >= 1 && idade <= 10) {
   console.log("sou crianca");
 } else {
   console.log("adolecente");

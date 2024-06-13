@@ -2,8 +2,8 @@ algoritmos
 - lógica de programação[x]
 - variáveis constantes[x]
 - tipos de dados[x]
-- operadores e condicionais 
-- estruturas de repiticao
+- operadores e condicionais[x]
+- estruturas de repiticao 
 - estruturas de dados.
 - funções.
 - filas
