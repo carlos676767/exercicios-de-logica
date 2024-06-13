@@ -1,8 +1,8 @@
 algoritmos 
 - lógica de programação[x]
 - variáveis constantes[x]
-- tipos de dados
-- operadores e condicionais
+- tipos de dados[x]
+- operadores e condicionais 
 - estruturas de repiticao
 - estruturas de dados.
 - funções.
@@ -30,3 +30,8 @@ algoritmos
 - objetos
 - setTimout
 - set interval
+- incremento
+- decremento
+- operadores relacionais
+- objetos math
+
