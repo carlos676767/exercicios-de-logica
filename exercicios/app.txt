@@ -10,7 +10,7 @@ algoritmos
 - pilas[x]
 - set[x]
 - fs [x]
-- json 
+- json[x]
 - asnyc 
 - promises 
 - callbacks
