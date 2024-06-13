@@ -14,8 +14,8 @@ algoritmos
 - asnyc[x]
 - promises [x]
 - callbacks[x]
-- eventloop  []
-- programação sync 
+- eventloop  [x]
+- programação sync []
 - apis 
 - integrar mongodb
 - métodos js 
@@ -27,7 +27,7 @@ algoritmos
 - módulo path 
 - funçao iife 
 - closures 
-- objetos
+- objetos[x]
 - setTimout
 - set interval
 - incremento
