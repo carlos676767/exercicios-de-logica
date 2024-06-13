@@ -22,16 +22,16 @@ algoritmos
 - tratamento de erros try/catch [x]
 - funçao genetor []
 - protocolo tcp [x]
-- emmities 
-- Built-in Objects
-- módulo path 
+- emmities [x]
+- Built-in Objects[x]
+- módulo path [x]
 - funçao iife 
 - closures 
 - objetos[x]
 - setTimout
 - set interval
-- incremento
-- decremento
+- incremento [x]
+- decremento [x]
 - operadores relacionais
 - objetos math
 - escopo 
