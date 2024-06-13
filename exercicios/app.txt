@@ -25,7 +25,7 @@ algoritmos
 - emmities [x]
 - Built-in Objects[x]
 - módulo path [x]
-- funçao iife 
+- funçao iife [x]
 - closures 
 - objetos[x]
 - setTimout
@@ -35,3 +35,4 @@ algoritmos
 - operadores relacionais
 - objetos math
 - escopo 
+- hositing
