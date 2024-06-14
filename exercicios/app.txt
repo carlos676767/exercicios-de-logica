@@ -1,4 +1,4 @@
-algoritmos 
+ideias de projetos back end
 - lógica de programação[x]
 - variáveis constantes[x]
 - tipos de dados[x]
@@ -36,3 +36,7 @@ algoritmos
 - objetos math [x]
 - escopo [x]
 - hositing[x]
+- match[x]
+- regexs[x]
+- envio de email[x]
+
