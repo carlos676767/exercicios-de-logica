@@ -1,4 +1,5 @@
 ideias de projetos back end
+
 - lógica de programação[x]
 - variáveis constantes[x]
 - tipos de dados[x]
@@ -13,14 +14,14 @@ ideias de projetos back end
 - json[x]
 - asnyc[x]
 - promises [x]
-- callbacks[x]
-- eventloop  [x]
-- programação sync []
-- apis http request[x]
-- integrar mongodb[x]
+- callbacks [x]
+- eventloop [x]
+- programação sync [x]
+- apis http request [x]
+- integrar mongodb [x]
 - métodos js [x]
 - tratamento de erros try/catch [x]
-- funçao genetor []
+- funçao genetor [x]
 - protocolo tcp [x]
 - emmities [x]
 - Built-in Objects[x]
@@ -39,4 +40,6 @@ ideias de projetos back end
 - match[x]
 - regexs[x]
 - envio de email[x]
+- local storage [x]
+
 
