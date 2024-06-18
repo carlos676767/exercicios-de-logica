@@ -1,4 +1,4 @@
-ideias de projetos back end
+ideias de projetos back end e front end
 
 - lógica de programação[x]
 - variáveis constantes[x]
@@ -41,5 +41,11 @@ ideias de projetos back end
 - regexs[x]
 - envio de email[x]
 - local storage [x]
+- excel[x]
+- html[x]
+- css 
+- express
+
+
 
 
