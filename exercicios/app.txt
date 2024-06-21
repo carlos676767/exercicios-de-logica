@@ -43,8 +43,8 @@ ideias de projetos back end e front end
 - local storage [x]
 - excel[x]
 - html[x]
-- css 
-- express
+- css [x]
+- express [x]
 
 
 
