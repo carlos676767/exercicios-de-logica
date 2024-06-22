@@ -6,6 +6,5 @@
 
 function smash(words) {
   const str = String(words).replace(/,/g, " ");
-  return str
-}
-
+  return str;
+};
