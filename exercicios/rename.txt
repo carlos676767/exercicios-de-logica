@@ -31,7 +31,7 @@ ideias de projetos back end e front end
 - objetos[x]
 - setTimout [x]
 - set interval [x]
-- incremento [x]
+- incremento [x] 
 - decremento [x]
 - operadores relacionais [x]
 - objetos math [x]
@@ -47,9 +47,13 @@ ideias de projetos back end e front end
 - css [x]
 - express [x]
 =======
-- css 
 - express
 - single tread 
+- mvr arquitetura
+- cores modules
+-coachdb
+
+
 >>>>>>> 349234a8a2e2182786ca96cecd511985e87b2b51
 
 
