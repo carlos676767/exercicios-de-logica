@@ -10,4 +10,4 @@ function palavraComErro(str1, str2) {
   if (contador > 1) return true;
   const comprimentoStr1 = str1.length;
   if (comprimentoStr1 > 1) return false;
-}
+};
