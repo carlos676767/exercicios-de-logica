@@ -52,6 +52,7 @@ ideias de projetos back end e front end
 - mvr arquitetura
 - cores modules
 -coachdb
+-jwt
 
 
 >>>>>>> 349234a8a2e2182786ca96cecd511985e87b2b51
