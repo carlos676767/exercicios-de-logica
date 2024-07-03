@@ -1,6 +1,4 @@
-Aqui está a lista organizada e corrigida:
 
-- Lógica de programação [x]
 - Variáveis constantes [x]
 - Tipos de dados [x]
 - Operadores e condicionais [x]
@@ -48,9 +46,3 @@ Aqui está a lista organizada e corrigida:
 - Core Modules[x]
 - CouchDB[x]
 - JWT (JSON Web Token)[x]
-
-Se precisar de mais alguma coisa, é só avisar!
-
-
-
-
