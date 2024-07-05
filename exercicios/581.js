@@ -6,3 +6,8 @@ function removeChar(str) {
 }
 
 console.log(removeChar("carlos"));
+
+
+(() => {
+    
+})
