@@ -1,11 +1,6 @@
 function findShort(s) {
     const palavra = s.split(' ')
-    const arrayMin = palavra.map((data =>  data.length))
-    let menor = Math.min()
-    for (let i = 0; i < arrayMin.length; i++){
-       if ( arrayMin[i] < menor)   menor = arrayMin[i]
-    }
-    return menor
+    const arrayMin = palavra.map((data =>  data.length)).reduce((acc, ac) => acc < ac ? acc : ac) 
 }
 
 console.log(findShort('ola meu nome e22 carlos'))
