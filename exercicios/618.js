@@ -4,5 +4,4 @@ const converterEmMaiscula = (palavra) => {
 }
 
 console.log(converterEmMaiscula("ola me chamo carlos"))
-
 console.log(converterEmMaiscula("o ana juliaaa"))
