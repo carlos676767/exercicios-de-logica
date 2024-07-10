@@ -1,9 +1,9 @@
 function repeatStr(s, n) {
   let value = "";
-  for (let i = 0; i <= n; i++) {
+  for (let i = 0; i < n; i++) {
     value += s;
   }
   return value;
 }
 
-console.log(repeatStr("ola meu nome e carlos", 1000));
+console.log(repeatStr("ola meu nome e carlos", 2));
