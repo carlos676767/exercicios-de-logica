@@ -4,7 +4,7 @@
   "description": "Bem-vindo ao meu repositório! Este é um espaço onde compartilho exercícios que fiz em várias linguagens de programação, incluindo JavaScript. Este repositório é mantido regularmente e novos exercícios são adicionados com frequência.",
   "main": "577.js",
   "scripts": {
-    "test": "ola"
+    "test": "jest"
   },
   "author": "carlos",
   "license": "ISC",
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/carlos676767/exercicios-de-logica/issues"
   },
-  "homepage": "https://github.com/carlos676767/exercicios-de-logica#readme"
+  "homepage": "https://github.com/carlos676767/exercicios-de-logica#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
