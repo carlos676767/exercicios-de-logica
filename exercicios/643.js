@@ -3,4 +3,4 @@ function digitalRoot(n) {
     return value.reduce((a,b) => a +b)
 }
 
-console.log(digitalRoot("132189"));
+console.log(digitalRoot("132189")); 
