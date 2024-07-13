@@ -5,5 +5,4 @@ function pigIt(str) {
     }
     return word.slice(1) + word.charAt(0) + 'ay';
   }).join(' ');
-
 }
