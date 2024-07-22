@@ -1,0 +1,6 @@
+nome string obrigatorio
+data string obrigatorio.
+sexo string obrigatorio.
+nascimento obrigatorio 
+horario entrada, obrigatorio 
+saida obrigatorio
