@@ -30,6 +30,8 @@
   },
   "homepage": "https://github.com/carlos676767/exercicios-de-logica#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@types/node": "^20.14.12",
+    "jest": "^29.7.0",
+    "typescript": "^5.5.4"
   }
 }
