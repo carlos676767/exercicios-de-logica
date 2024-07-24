@@ -2,7 +2,7 @@
 
 function disemvowel(str) {
     const gerarVogais = [97, 101, 105, 111, 117, 65, 69, 73, 79, 85];
-    const vogais = [].sort()
+    const vogais = []
     const palavra = str.split("")
     let NewPalavra = ""
     let i = 0
@@ -23,5 +23,8 @@ function disemvowel(str) {
     }
     return NewPalavra
 }
+
+
+
 
 console.log(disemvowel("OfuuH E"));
