@@ -3,7 +3,7 @@ function findOutlier(integers) {
   const arr2 = [];
   let i = 0;
   while (i < integers.length) {
-    if (integers[i] % 2 !== 0) {
+    if(integers[i] % 2 !== 0){
       arr.push(integers[i]);
     }else{
       arr2.push(integers[i]);
