@@ -20,7 +20,6 @@ function findOutlier(integers) {
   if (arr2.length == 1) {
     return Number(arr2);
   }
-
 }
 
 console.log(findOutlier([2, 4, 0, 100, 4, 11, 2602, 36]));
