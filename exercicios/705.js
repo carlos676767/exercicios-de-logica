@@ -1,6 +1,10 @@
 function past(h, m, s) {
-  const horaEmMilisegundos = h * 60 * 60 * 1000;
-  const minutosEmMili = m * 60 * 1000;
-  const segundosEmMili = s * 1000;
+  const valueCenetnta = 60;
+  const milisegundos = 1000;
+
+  
+  const horaEmMilisegundos = h * valueCenetnta * valueCenetnta * milisegundos;
+  const minutosEmMili = m * valueCenetnta * milisegundos;
+  const segundosEmMili = s * milisegundos;
   return horaEmMilisegundos + minutosEmMili + segundosEmMili;
 }
