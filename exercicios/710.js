@@ -5,9 +5,7 @@ async function http1() {
 }
 
 async function http2() {
-  const http = await fetch(
-    "https://jsonplaceholder.typicode.com/comments?postId=1"
-  );
+  const http = await fetch("https://jsonplaceholder.typicode.com/comments?postId=1" );
   const res = await http.json();
   return res;
 }
@@ -32,10 +30,31 @@ const testingPromiseTres = (n1, n2) => {
   });
 };
 
-Promise.all([http1(), http2(), apos(), testingPromiseTres(15, 2)])
+
+Promise.all([http1(), http2(), apos(), testingPromiseTres(1, 2)])
   .then((data) => {
+    console.log("primeira maneira")
     console.log(data);
   })
   .catch((err) => {
     console.log(err);
   });
+
+
+
+  //segunda maneira
+  (async () => {
+    try {
+      const resolvePromise = await Promise.all([
+        http1(),
+        http2(),
+        apos(),
+        testingPromiseTres(10, 2),
+      ]);
+      console.log('segunda maneira de resolver varias promises');
+      console.log(resolvePromise);
+    } catch (error) {
+      console.log(error);
+    }
+  })();
+  
