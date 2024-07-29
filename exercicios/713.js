@@ -17,7 +17,6 @@ class Animal {
   }
 }
 
-
 const novoAniaml = new Animal("carlinho", "pitbul")
 novoAniaml.animalCorrer()
 console.log(objetctAnimal("pitbul", "dog"));
