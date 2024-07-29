@@ -30,7 +30,6 @@ const testingPromiseTres = (n1, n2) => {
   });
 };
 
-
 Promise.all([http1(), http2(), apos(), testingPromiseTres(1, 2)])
   .then((data) => {
     console.log("primeira maneira")
@@ -39,7 +38,6 @@ Promise.all([http1(), http2(), apos(), testingPromiseTres(1, 2)])
   .catch((err) => {
     console.log(err);
   });
-
 
 
   //segunda maneira
