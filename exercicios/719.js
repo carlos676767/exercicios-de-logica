@@ -10,4 +10,4 @@ function findNextSquare(sq) {
     return result;
   }
   return -1;
-}
+};
