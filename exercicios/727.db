@@ -1,0 +1,2 @@
+INSERT INTO pessoas (name, idade, sexo, cpf) values ("carlos", 5, "m", "4414553354");
+SELECT * from pessoas;

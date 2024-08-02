@@ -28,5 +28,3 @@ function sumMatrizes(tamanhoMatriz, numeros) {
 }
 
 console.log(sumMatrizes(10, 4));
-
-
