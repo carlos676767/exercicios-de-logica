@@ -9,5 +9,3 @@ if (carro > 80) {
 } else {
   alert(`voce nao pegou multa`);
 }
-
-
