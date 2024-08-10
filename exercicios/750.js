@@ -14,3 +14,4 @@ function sortArray(array) {
 }
 
 console.log(sortArray([5, 8, 6, 3, 4])); // [3, 8, 6, 5, 4]
+const arr = ['carlos'].reduceRight
