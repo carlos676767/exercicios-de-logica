@@ -9,9 +9,11 @@ class Pessoa {
       this.#nome = novoNome;
     }
   }
+
   retornarName() {
     return this.#nome;
   }
+
 };
 
 const p1 = new Pessoa("carlos");
