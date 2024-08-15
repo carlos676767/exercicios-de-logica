@@ -1,0 +1,78 @@
+- Variáveis constantes [x] 
+- Tipos de dados [x] 
+- Operadores e condicionais [x] 
+- Estruturas de repetição [x] 
+- Estruturas de dados [x] 
+- Funções [x] 
+- Filas [x] 
+- Pilhas [x] 
+- Set [x] 
+- FS (File System) [x] 
+- JSON [x] 
+- Async [x] 
+- then [x]
+- Promises [x] 
+- Resolvendo varias promises[x]
+- Callbacks [x] 
+- Event Loop [x] 
+- Programação síncrona [x] 
+- APIs HTTP Request [x] 
+- Integração com MongoDB [x] 
+- Métodos JS [x] 
+- Tratamento de erros try/catch [x] 
+- Função geradora [x] 
+- Protocolo TCP [x] 
+- metodos de Objects[x]
+- Emitters [x] 
+- Built-in Objects [x] 
+- Módulo Path [x] 
+- Função IIFE [x] 
+- Closures [x] 
+- Objetos [x] 
+- setTimeout [x] 
+- setInterval [x] 
+- Incremento [x] 
+- Decremento [x] 
+- Operadores relacionais [x] 
+- Objetos Math [x] 
+- Escopo [x] 
+- Hoisting [x] 
+- Match [x] 
+- Regex [x] 
+- Envio de e-mail [x] 
+- Excel [x] 
+- Express [x] 
+- Single Thread[x] 
+- Core Modules[x] 
+- JWT (JSON Web Token)[x]
+- metodos de de arrays [x]
+- express router [x]
+- static express[x]
+- api stripe [x]
+- poo static , private , class , this , heranca[x]
+- usar private em todos os metodos[x]
+- Oauth github[x]
+- mongoose[x]
+- acid[x]
+- pandStart [x]
+- pandEnd [x]
+- pug[x]
+- tratar excoes[x]
+- SQL COMANDOS: 
+-- select * from database: sleciiona toda a tabela
+
+-- INSERT INTO customers (name, address) VALUES ('Michelle', 'Blue Village 1'): add dados
+
+-- "DELETE FROM customers WHERE address = 'Mountain 21'";: deletar pelo valor que eu passar.
+
+-- DROP TABLE: apaga a tabela.
+-- create table(cria a tabela com os valores modelados.)
+-- primekey: e um valor fixo que nao muda na tabela.
+-- chave estrangeira: e uma chave que muda o valor e usada para se relacionar com a chave primaria.
+-- TRUNCATE TABLE pessoas: limpa a tabela.
+
+-- tipo notnull e para ser um valor obrigatorio
+-- char e que a string sera mesmo daquele tamanho
+-- primary key e uma chave unica
+-- varchar variar o valor que vai ali dentro.
+ 
