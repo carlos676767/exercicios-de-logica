@@ -1,6 +1,7 @@
 function duplicateCount(text) {
   const ignorarLetras = text.toLowerCase().split("");
   const contarPlavras = {};
+
   ignorarLetras.forEach((data) => {
     if (!contarPlavras[data]) {
       contarPlavras[data] = 1;
@@ -12,6 +13,6 @@ function duplicateCount(text) {
   return arr;
 }
 
-console.log(duplicateCount("aabbcde"));
+console.log(duplicateCount("abcdefghijklabcdefabcdeABCDABCABa"));
 
 
