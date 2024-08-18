@@ -14,11 +14,11 @@ class DuplicateCount {
     !count[data] ? count[data] = 1 : ++count[data];
     })
     return Object.values(count).filter(data => data > 1).length
-  }
+  };
   public returnResult() : number{
     return this.duplicateCount()
-  }
-}
+  };
+};
 
 const str = new DuplicateCount('aaaa')
 console.log(str.returnResult());
