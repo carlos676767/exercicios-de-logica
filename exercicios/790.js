@@ -1,4 +1,3 @@
-
 function rot13(message) {
     const alfabetoMinusculo = Array.from(Array(26).keys()).map(data => String.fromCharCode(data +97))
     const maisculoAlfabeto = Array.from(Array(26).keys()).map(data => String.fromCharCode(data + 65))
