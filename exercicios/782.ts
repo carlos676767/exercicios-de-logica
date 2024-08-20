@@ -43,7 +43,7 @@ class MulterUp extends ExpressRouter {
     });
     return multer({storage: storage})
   }
-  public static httpMulter(){
+  public static httpMulter() : void{
     const multe = this.configMulter()
     ExpressRouter.httpImage(multe)
   }
