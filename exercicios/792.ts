@@ -8,7 +8,9 @@
 
 interface Shape {
   getArea(): number;
-}
+};
+
+
 
 class Rectangle implements Shape {
   private altura: number;
@@ -37,10 +39,12 @@ class Circle implements Shape {
 class Triangle implements Shape {
   private base: number;
   private altura: number;
+
   constructor(base: number, altura: number) {
     this.base = base;
     this.altura = altura;
   }
+
   getArea(): number {
     return (this.base * this.altura) / 2;
   }

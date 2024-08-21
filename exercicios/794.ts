@@ -16,4 +16,4 @@ class SavingsAccount implements BankAccount {
     calculateInterest(amount: number): number {
         return amount * 5
     }
-}
+};
