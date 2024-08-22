@@ -11,7 +11,6 @@ interface Shape {
 };
 
 
-
 class Rectangle implements Shape {
   private altura: number;
   private largura: number;

@@ -15,7 +15,8 @@ class ExpressRouter {
 
   protected static httpImage(multer: any) {
     const api = this.configExpress();
-    api.post("/", multer.single("file"),(req: Request, res: Response) => {
+    api.post("/", multer.single("file"),
+    (req: Request, res: Response) => {
       if (!req.file) {
         res.send({ msg: "img nao veio." });
         return;
