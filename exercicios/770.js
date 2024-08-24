@@ -4,7 +4,7 @@ class valueNumber {
     this.#array = array;
   }
 
-  transformArray() {
+  #transformArray() {
     let i = 0;
     const newArr = [];
     while (i < this.#array.length) {
