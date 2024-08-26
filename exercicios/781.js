@@ -3,7 +3,6 @@ const multer = require("multer");
 const cors = require("cors");
 const api = express();
 api.use(cors());
-api.use(bodyparser.json());
 const storage = multer.diskStorage({
   destination: (req, res, s) => {
     s(null, "./image");
@@ -17,13 +16,13 @@ const storage = multer.diskStorage({
 const multerUploud = multer({ storage: storage });
 
 
-api.post("/upimg", multerUploud.single("file"), (req, res) => {
+api.post("/img", multerUploud.single("file"), (req, res) => {
   try {
     if (!req.file) {
       res.send({ err: "img nao enviada." });
       return 
     }
-    console.log(req.body);
+    console.log(req.file);
     res.send({ msg: req.file.filename, msgImg: "img upada"});
   } catch (error) {
     console.log(error);
