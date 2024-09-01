@@ -11,4 +11,5 @@ function hamming(a, b) {
   return countLetras;
 }
 
+module.exports = hamming
 console.log(hamming("I like turtles", "I like turkeys"));
