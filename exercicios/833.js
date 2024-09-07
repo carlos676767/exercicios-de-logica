@@ -5,4 +5,4 @@ function minMax(arr) {
   }
   const ultimoIndice = arrayOrder.length - 1;
   return [arrayOrder[0], arrayOrder[ultimoIndice]];
-}
+};
