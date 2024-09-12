@@ -3,7 +3,8 @@
     "axios": "^1.7.2",
     "express": "^4.19.2",
     "fastify": "^4.27.0",
-    "json-server": "^1.0.0-beta.1"
+    "json-server": "^1.0.0-beta.1",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "jest": "^29.7.0"
