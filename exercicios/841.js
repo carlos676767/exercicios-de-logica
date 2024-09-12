@@ -3,7 +3,7 @@ function isIsogram(str) {
     return true;
   }
   const strArr = str.toLowerCase().split("");
-  return Array.from(new Set(strArr)).length == strArr.length ? true : false;
+  return Array.from(new Set(strArr)).length == strArr.length
 }
 
 console.log(isIsogram("a"));
