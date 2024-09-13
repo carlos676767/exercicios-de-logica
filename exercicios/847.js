@@ -1,8 +1,7 @@
-
 class Maisculas {
   #str;
   constructor(str) {
-    this.#str =str;
+    this.#str = str;
   }
 
   verifiyMaisculas() {
@@ -10,6 +9,5 @@ class Maisculas {
   }
 }
 
-
-const objecto = new Maisculas("carlos")
+const objecto = new Maisculas("carlos");
 console.log(objecto.verifiyMaisculas());
