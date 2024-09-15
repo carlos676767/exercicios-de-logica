@@ -1,4 +1,4 @@
-const axios = require("axios")
+const axios = require("axios");
 
 class Xml {
   #url;
@@ -29,7 +29,6 @@ xml.httpRequestGetXml();
 async () => {
   try {
     const httpReuqets = await axios.get("https://reqres.in/api/u/1");
-    
   } catch (error) {
     console.log(error);
   }
