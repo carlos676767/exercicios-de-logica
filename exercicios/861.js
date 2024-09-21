@@ -7,3 +7,10 @@ function switcheroo(x) {
     })
     .join("");
 }
+
+console.log(switcheroo("acb")); //bca
+console.log(switcheroo("aabacbaa")); //'bbabcabb'
+
+//Dada uma sequência composta de letras a, b e/ou c,
+//troque a posição das letras a e b (mude a para b e vice-versa).
+//Deixe qualquer incidência de c intocada.
