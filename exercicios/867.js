@@ -1,5 +1,13 @@
-function product(string) {
-  const inter = Array.from(string).filter((data) => data == "?").length;
-  const exclamacao = Array.from(string).filter((data) => data === "!").length;
-  return inter * exclamacao;
-};
+
+class Product {
+  #string
+  constructor(string) {
+    this.#string = string
+  }
+
+  product() {
+    const inter = Array.from(this.#string).filter((data) => data == "?").length;
+    const exclamacao = Array.from(this.#string).filter((data) => data === "!").length;
+    return inter * exclamacao;
+  }
+}
