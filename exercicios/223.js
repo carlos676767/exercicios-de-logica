@@ -54,7 +54,7 @@ function ordermCresnte(array) {
 console.log(`a array ordenada em ordem crescente e ${ordermcresnte(copiaArrayOrdemCrescente)}`);
 
 //cria uma funcao que ordena em ordem descrente
-function ordernarArrayOrdemDescrente(array) {
+function narArrayOrdemDescrente(array) {
     for (let i = 0; i < array.length; i++) {
         for (let j = 0; j < array.length; j++) {
            if (array[i] > array[j]) {

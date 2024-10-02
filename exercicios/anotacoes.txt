@@ -58,6 +58,16 @@
 - pandEnd [x]
 - pug[x]
 - tratar excoes[x]
+- api de pagembto[x]
+- multer 
+- testes unitarios
+- classes 
+- metodos
+- polimofisrmo 
+- encapulamento 
+- heranca 
+- metodos de arrays
+
 - SQL COMANDOS: 
 -- select * from database: sleciiona toda a tabela
 
@@ -75,4 +85,6 @@
 -- char e que a string sera mesmo daquele tamanho
 -- primary key e uma chave unica
 -- varchar variar o valor que vai ali dentro.
- 
+ - count
+ - sum
+ - max 

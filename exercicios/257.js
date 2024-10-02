@@ -12,7 +12,7 @@ const ordernarElementos = (array) => {
 };
 
 let list = [10,9,8,7,6,5,4,3,2,1]
-console.log(ordernarElementos(list));
+console.log(narElementos(list));
 
 let test = function () {
     return `hello word`
