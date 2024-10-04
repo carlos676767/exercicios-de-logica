@@ -1,14 +1,14 @@
 const array = [5, 4, 3, 2, 1];
-const doubleSort = (list) => {
-  for (let i = 0; i < list.length; i++) {
-    for (let j = 0; j < list.length; j++) {
-        if (list[i] < list[j]) {
-            let temp = list[i]
-            list[i] = list[j]
-            list[j] = temp
+const doubleSort = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+        if (array[i] < array[j]) {
+            let temp = array[i]
+            array[i] = array[j]
+            array[j] = temp
         }
     }
   }
-  return list
+  return array
 };
 console.log(doubleSort(array));
