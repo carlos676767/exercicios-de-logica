@@ -5,9 +5,10 @@ class AgruparValores {
   }
 
   agruparArray() {
-    return Map.groupBy(this.array, (arr) =>
-      arr < 0 ? "negativo" : "positivo"
-    )
+    
+   return Map.groupBy(this.array, (arr) =>
+    arr < 0 ? "negativo" : "positivo"
+  )
   }
 
    agruparObjetos() {
