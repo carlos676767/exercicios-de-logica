@@ -16,6 +16,19 @@ print(triangulo.verificarTriangulo())
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
