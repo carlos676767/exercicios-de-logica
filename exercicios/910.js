@@ -8,9 +8,8 @@ function encode(string) {
   };
 
   return [...string] .map((data) => {
-      return vogais[data] ? vogais[data] : data;
-    })
-    .join("");
+    return vogais[data] ? vogais[data]
+     : data;}).join("");
 }
 
 function decode(string) {
@@ -22,11 +21,9 @@ function decode(string) {
     5: "u",
   };
 
-  return [...string]
-    .map((data) => {
+  return [...string].map((data) => {
       return numeros[data] ? numeros[data] : data;
-    })
-    .join("");
+    }).join("");
 }
 
 
