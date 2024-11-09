@@ -1,6 +1,3 @@
 function isPalindrome(x) {
-
-    return [...x].reverse().join('').toLowerCase() === x.toLowerCase()
-  
-  }
-  
+  return [...x].reverse().join("").toLowerCase() === x.toLowerCase();
+}
