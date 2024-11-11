@@ -18,7 +18,7 @@ class Timer {
     let tempoTotal = `${String(minutes).padStart(2, "0")}:${String( seconds  ).padStart(2, "0")}`;
     this.timer.innerText = tempoTotal;
     document.title = tempoTotal;
-  }
+  };
 }
 
 Timer.myTimer();
