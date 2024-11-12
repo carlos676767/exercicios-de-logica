@@ -5,5 +5,4 @@ function alphabetPosition(text) {
     const novasLetras = [...removeAll].filter(data => data !== " ").map(data => data.toLowerCase())
   
     return novasLetras.map(data => alfabeto.indexOf(data) + 1).filter(data => data != 0).join(' ')
-  }
-  
+};
