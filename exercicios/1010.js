@@ -1,8 +1,11 @@
 function comp(array1, array2) {
 
+
     if (Array.isArray(array2) && Array.isArray(array1)) {
-        const eleverQuadrad = array1.map(data => data * data)
-        return array2.every(num => eleverQuadrad.includes(num))
+        const array1Copy = [...new Set(array1)].sort((a, b)  => a - b)
+        const array2Copy = [...new Set(array2)].sort((a, b)  => a - b)
+        const eleverQuadrad = array1Copy.map(data => data * data)
+        return array2Copy.every(num => eleverQuadrad.includes(num))
     }
 }
 
