@@ -1,4 +1,4 @@
-function findUniq(arr) {
+ export default function findUniq(arr) {
   const count = {};
   for (let i = 0; i < arr.length; i++) {
     if (!count[arr[i]]) {
