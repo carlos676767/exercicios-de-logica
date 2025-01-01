@@ -5,3 +5,8 @@ function sortArray(array) {
 
   return array.map((char) => (char % 2 !== 0 ? order[indicex++] : char));
 }
+
+
+const test = [3]
+const a = `2`
+test.includes(a)
