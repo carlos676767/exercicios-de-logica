@@ -1,6 +1,6 @@
 <?php
 
-  class InverterString
+ final class InverterString
  {
     static public function inverterStr(string $str){
         $strReversed = strrev($str);
