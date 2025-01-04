@@ -3,7 +3,7 @@
 
 final class Alphabet_position
 {
-    static public  function alphabetposition(string $s){
+    static public  function alphabetposition(string $s): string{
         $clean_string = preg_replace("/[^a-zA-Z0-9\s]/",  "", $s);
         $stringInLower = strtolower($clean_string);
         
