@@ -7,18 +7,18 @@ final class Alphabet_position
         $clean_string = preg_replace("/[^a-zA-Z0-9\s]/",  "", $s);
         $stringInLower = strtolower($clean_string);
         
-        $alfabeto = range('a', 'z');
+       
         $splitString = str_split( $stringInLower);
 
-        $filterSpaces = array_filter($splitString, function($chars) { return $chars != ""; });
+        $filterSpaces = array_filter($splitString, function($chars) { return $chars != " "; });
 
+         $alfabeto = range('a', 'z');
         
-        
-        return array_map(function($chars){
-            return $chars;
+        $valuesInPosAlafebts =  array_map(function($chars) use ($alfabeto) {
+           return array_search($chars , $alfabeto) + 1;
         }, $filterSpaces );
         
-        
+        return implode(" ", $valuesInPosAlafebts);
     }
 }
 
