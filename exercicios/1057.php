@@ -3,7 +3,7 @@
 
 final class ToWeirdCase
 {
-  static public function toWeirdCase(string $str){
+  static public function toWeirdCase(string $str): string{
     $strInString = str_split($str);
 
    $newSrr = array_map(function($chars, $indice){

@@ -11,4 +11,3 @@ function toWeirdCase(str) {
 }
   
 console.log(toWeirdCase("Weird string case"));
-  
