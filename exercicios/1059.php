@@ -20,3 +20,4 @@ final class HasUniqueChars
 
 $hasUniqueCharss = new HasUniqueChars("Hello World");
 echo($hasUniqueCharss->hasUniqueChars());
+
