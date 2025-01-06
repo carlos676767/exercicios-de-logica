@@ -4,6 +4,7 @@ final class IsIsogram
 {
     static public function isIsogram($string) : bool 
     {
+     
         if (!$string) {
             return true;
         }
@@ -11,6 +12,7 @@ final class IsIsogram
        $string = strtolower($string);
        $strSplit = str_split($string);
       return count(array_unique($strSplit)) === strlen($string);
+      
     }
 }
 
