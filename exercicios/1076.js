@@ -6,3 +6,4 @@ const between = (a, b) => {
   return numbers
 };
 console.log(between(1, 10));
+console.log(parseInt("1001001", 2));
