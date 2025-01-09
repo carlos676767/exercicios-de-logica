@@ -1,6 +1,5 @@
 
 <?php
-
 final class CreatePhoneNumber
 {
     static public function createPhoneNumber(array $numbers) : string
