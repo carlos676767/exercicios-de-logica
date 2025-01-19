@@ -2,7 +2,7 @@
 
 final class FindAEvenAndOdd
 {
-    static public  function find($integers) {
+    static public  function find($integers): int {
         $even = array_filter($integers, function($value){
             return $value %2 == 0;
         });
