@@ -1,7 +1,6 @@
 <?php
 
-
-final class retorneAlbeth
+final class RetorneAlbeth
 {
     static public function albeth(int $n)
     {
@@ -11,5 +10,5 @@ final class retorneAlbeth
     }
 }
 
-$albeth = retorneAlbeth::albeth(10);
+$albeth = RetorneAlbeth::albeth(10);
 print_r($albeth);
