@@ -1,7 +1,5 @@
 <?php
 
-
-
 class fakeBin
 {
     static public function fakeBin(string $input)
@@ -16,7 +14,4 @@ class fakeBin
     }
 }
 
-
-
 print_r(fakeBin::fakeBin("45385593107843568"));
-
