@@ -9,5 +9,3 @@ $bodies = array_column($data, 'body');
 sort($bodies);
 
 print_r($bodies);
-
-?>
