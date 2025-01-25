@@ -1,15 +1,24 @@
- <?php
+<?php
 
 final class Longest
 {
     static public function longest(string $a, string $b)
     {
-        $strCombine = $a . $b;
-        $newSet = self::newSetAlgorith($strCombine);
-        $orderByCaractres = self::doubleSort($newSet);
+        
+        $newSetStr1= self::newSetAlgorith($a);
+        $neSetStr2 = self::newSetAlgorith($b);
+        
+        $newValuesSet = [
+          ...$neSetStr2,
+         ...$newSetStr1
+          ];
+        
+        
+        $orderByCaractres = self::doubleSort($newValuesSet);
         $implode = self::implodeStr($orderByCaractres);
-
         return $implode;
+
+        
     }
 
     static private function newSetAlgorith(string $str): array
@@ -51,7 +60,8 @@ final class Longest
     }
 
     static private function implodeStr(array $list):  string{
-        $concat = ``;
+        $concat = '';
+
         for ($i=0; $i < count($list); $i++) { 
             $concat .= $list[$i];
         }
