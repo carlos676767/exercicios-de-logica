@@ -14,7 +14,7 @@ final class HighAndLow
             }
         }
 
-
+        
         for ($i = 0; $i < count($VectorNumbers); $i++) {
             for ($j = 0; $j < count($VectorNumbers); $j++) {
                 if ($VectorNumbers[$i] > $VectorNumbers[$j]) {
