@@ -1,7 +1,6 @@
 <?php
 
 
-
 final class Palindromo
 {
     private string $str;
@@ -10,7 +9,7 @@ final class Palindromo
     {
         $this->str = $str;
     }
-    
+
     public function isPalindromo() : string{
      $string = strrev($this -> str);
      return $string === $this -> str ? "É um palíndromo" :"Não é um palíndromo";
