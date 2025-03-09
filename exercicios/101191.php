@@ -1,12 +1,11 @@
 <?php
 
-
 final class UniqueInOrder
 {
     static public function main(string $args){
         return UniqueInOrder::resultUniqueOrder($args);
     }
-
+    
     static private function resultUniqueOrder(string $args){
         $strSplit = str_split($args);
       
