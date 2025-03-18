@@ -1,9 +1,11 @@
 var uniqueInOrder = function (iterable) {
     const str = iterable.split(``);
+    const result = []
     for (let i = 0; i < str.length; i++) {
-      str[i] != str[i] + 1 ? str[i] : null
+      if (str[i] !== str[i + 1]) {
+        result.push(str[i])
+      }
     }
   
-    return str
+    return result.join(``)
   };
-  
