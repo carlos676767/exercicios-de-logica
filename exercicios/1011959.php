@@ -6,3 +6,4 @@ function square_sum(array $numbers) : int {
 
 
 print_r(square_sum([1, 2, 2]));
+
