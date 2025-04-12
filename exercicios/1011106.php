@@ -9,4 +9,4 @@ function abbrevName(string $name) {
   
   var_dump(abbrevName("Sam Harris")); //S.H
 
-  
+
