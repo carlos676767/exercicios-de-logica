@@ -2,6 +2,7 @@
 
 
 
+
 function accum($s)
 {
     $strSplit = str_split( $s );
@@ -11,5 +12,7 @@ function accum($s)
 
     return implode("-", $list);
 }
-
+//aprendi algo com a programacao que irei levar para toda minha vida.
+//aprendi que por mais que algo pareca dificil ou ate mesmo impossivel
+//la no final havera uma solucao , apenas precisamos de tempo.
 var_dump(accum("abcd"));
