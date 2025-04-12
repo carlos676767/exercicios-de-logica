@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 function accum($s)
 {
     $strSplit = str_split( $s );
