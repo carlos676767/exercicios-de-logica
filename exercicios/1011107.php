@@ -10,6 +10,9 @@ final class UpperCase
 {
     static public function upperCase(string $str)
     {
+        if ( filter_var($str, FILTER_VALIDATE_IP)) {
+          
+        }
         $str = str_split($str);
 
         $str = array_map(function ($char) {
@@ -18,7 +21,8 @@ final class UpperCase
             if ($temp >= 97 && $temp <= 122) {
                 return chr($temp -32);
             }
-
+           
+           
             return $char;
         }, $str);
 
