@@ -1,6 +1,7 @@
 <?php
 function countBits(int $n)
 {
+    
     $binary = decbin($n);
     $arr = str_split($binary);
     $arr = array_filter($arr, function ($char) {
