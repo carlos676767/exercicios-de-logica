@@ -10,3 +10,4 @@ function getCount(string $str) {
   
   return count($list);
 }
+
