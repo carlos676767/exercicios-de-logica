@@ -11,7 +11,7 @@ function moveZeros(array $items)
 
     for ($i = 0; $i < count($items); $i++) {
         if ($items[$i] === 0) {
-            array_push($list, $items[$i]);
+            $list[$i] = $items[$i];
         } else {
             array_push($removeO, $items[$i]);
         }

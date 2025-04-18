@@ -1,365 +1,286 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
 <body>
-  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
-<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/maps/modules/data.js"></script>
-<script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+  <!DOCTYPE html>
+  <html lang="pt-br">
 
-<div id="container"></div>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Página Freelancer - Projeto de Agendamento para Clínica Estética</title>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+      <link rel="stylesheet" href="../style/portfolio.css">
+  </head>
 
-<pre id="csv">Country Name;Country Code;2021
-Aruba;ABW;74.626
-Africa Eastern and Southern;AFE;62.4545896453863
-Afghanistan;AFG;61.982
-Africa Western and Central;AFW;56.9886567820139
-Angola;AGO;61.643
-Albania;ALB;76.463
-Andorra;AND;
-Arab World;ARB;70.814483021063
-United Arab Emirates;ARE;78.71
-Argentina;ARG;75.39
-Armenia;ARM;72.043
-American Samoa;ASM;
-Antigua and Barbuda;ATG;78.497
-Australia;AUS;83.3
-Austria;AUT;81.2390243902439
-Azerbaijan;AZE;69.366
-Burundi;BDI;61.663
-Belgium;BEL;81.890243902439
-Benin;BEN;59.821
-Burkina Faso;BFA;59.27
-Bangladesh;BGD;72.381
-Bulgaria;BGR;71.5146341463415
-Bahrain;BHR;78.76
-Bahamas, The;BHS;71.598
-Bosnia and Herzegovina;BIH;75.3
-Belarus;BLR;72.3706829268293
-Belize;BLZ;70.47
-Bermuda;BMU;79.28
-Bolivia;BOL;63.63
-Brazil;BRA;72.75
-Barbados;BRB;77.571
-Brunei Darussalam;BRN;74.642
-Bhutan;BTN;71.815
-Botswana;BWA;61.141
-Central African Republic;CAF;53.895
-Canada;CAN;82.5966097560976
-Central Europe and the Baltics;CEB;74.9320769722919
-Switzerland;CHE;83.8512195121951
-Channel Islands;CHI;81.232
-Chile;CHL;78.944
-China;CHN;78.211
-Cote d'Ivoire;CIV;58.598
-Cameroon;CMR;60.333
-Congo, Dem. Rep.;COD;59.193
-Congo, Rep.;COG;63.519
-Colombia;COL;72.83
-Comoros;COM;63.417
-Cabo Verde;CPV;74.052
-Costa Rica;CRI;77.023
-Caribbean small states;CSS;70.9962586746615
-Cuba;CUB;73.683
-Curacao;CUW;
-Cayman Islands;CYM;
-Cyprus;CYP;81.203
-Czechia;CZE;77.3731707317073
-Germany;DEU;80.9009756097561
-Djibouti;DJI;62.305
-Dominica;DMA;72.814
-Denmark;DNK;81.4048780487805
-Dominican Republic;DOM;72.615
-Algeria;DZA;76.377
-East Asia & Pacific (excluding high income);EAP;75.5432912976843
-Early-demographic dividend;EAR;68.4660405919992
-East Asia & Pacific;EAS;76.3938984674492
-Europe & Central Asia (excluding high income);ECA;71.4224672787838
-Europe & Central Asia;ECS;76.6250531517707
-Ecuador;ECU;73.67
-Egypt, Arab Rep.;EGY;70.221
-Euro area;EMU;81.7091612624959
-Eritrea;ERI;66.536
-Spain;ESP;83.1780487804878
-Estonia;EST;76.7414634146342
-Ethiopia;ETH;64.975
-European Union;EUU;80.3875285216872
-Fragile and conflict affected situations;FCS;61.2530471670404
-Finland;FIN;81.9341463414634
-Fiji;FJI;67.114
-France;FRA;82.3243902439024
-Faroe Islands;FRO;83.4975609756098
-Micronesia, Fed. Sts.;FSM;70.71
-Gabon;GAB;65.821
-United Kingdom;GBR;80.7
-Georgia;GEO;71.694
-Ghana;GHA;63.795
-Gibraltar;GIB;79.329
-Guinea;GIN;58.892
-Gambia, The;GMB;62.083
-Guinea-Bissau;GNB;59.652
-Equatorial Guinea;GNQ;60.594
-Greece;GRC;80.1829268292683
-Grenada;GRD;74.936
-Greenland;GRL;71.1475609756098
-Guatemala;GTM;69.237
-Guam;GUM;76.656
-Guyana;GUY;65.673
-High income;HIC;79.9239229936161
-Hong Kong SAR, China;HKG;85.4926829268293
-Honduras;HND;70.123
-Heavily indebted poor countries (HIPC);HPC;62.3027853999622
-Croatia;HRV;76.4243902439025
-Haiti;HTI;63.192
-Hungary;HUN;74.4658536585366
-IBRD only;IBD;72.1241925502819
-IDA & IBRD total;IBT;69.7795281325264
-IDA total;IDA;63.4032889018113
-IDA blend;IDB;60.6802512013328
-Indonesia;IDN;67.57
-IDA only;IDX;64.7477851426933
-Isle of Man;IMN;80.525
-India;IND;67.24
-Not classified;INX;
-Ireland;IRL;82.1024390243903
-Iran, Islamic Rep.;IRN;73.875
-Iraq;IRQ;70.378
-Iceland;ISL;83.1170731707317
-Israel;ISR;82.5
-Italy;ITA;82.7951219512195
-Jamaica;JAM;70.5
-Jordan;JOR;74.256
-Japan;JPN;84.4456097560976
-Kazakhstan;KAZ;70.23
-Kenya;KEN;61.427
-Kyrgyz Republic;KGZ;71.9
-Cambodia;KHM;69.584
-Kiribati;KIR;67.417
-St. Kitts and Nevis;KNA;71.682
-Korea, Rep.;KOR;83.5268292682927
-Kuwait;KWT;78.673
-Latin America & Caribbean (excluding high income);LAC;71.907356144081
-Lao PDR;LAO;68.061
-Lebanon;LBN;75.047
-Liberia;LBR;60.747
-Libya;LBY;71.911
-St. Lucia;LCA;71.111
-Latin America & Caribbean;LCN;72.1474343340309
-Least developed countries: UN classification;LDC;64.2158675035077
-Low income;LIC;62.4961095080066
-Liechtenstein;LIE;84.4024390243902
-Sri Lanka;LKA;76.399
-Lower middle income;LMC;66.9121239285529
-Low & middle income;LMY;69.7185016131564
-Lesotho;LSO;53.062
-Late-demographic dividend;LTE;76.3399634797957
-Lithuania;LTU;74.3390243902439
-Luxembourg;LUX;82.7487804878049
-Latvia;LVA;73.2829268292683
-Macao SAR, China;MAC;85.399
-St. Martin (French part);MAF;80.379
-Morocco;MAR;74.042
-Monaco;MCO;
-Moldova;MDA;68.846
-Madagascar;MDG;64.485
-Maldives;MDV;79.918
-Middle East & North Africa;MEA;72.7460552075238
-Mexico;MEX;70.213
-Marshall Islands;MHL;65.269
-Middle income;MIC;70.5525939301385
-North Macedonia;MKD;74.5368292682927
-Mali;MLI;58.941
-Malta;MLT;82.8609756097561
-Myanmar;MMR;65.672
-Middle East & North Africa (excluding high income);MNA;71.8998757257437
-Montenegro;MNE;73.8243902439024
-Mongolia;MNG;70.975
-Northern Mariana Islands;MNP;
-Mozambique;MOZ;59.325
-Mauritania;MRT;64.364
-Mauritius;MUS;73.680243902439
-Malawi;MWI;62.904
-Malaysia;MYS;74.884
-North America;NAC;76.9767231711531
-Namibia;NAM;59.269
-New Caledonia;NCL;79.1273414634146
-Niger;NER;61.576
-Nigeria;NGA;52.676
-Nicaragua;NIC;73.837
-Netherlands;NLD;81.4609756097561
-Norway;NOR;83.1634146341463
-Nepal;NPL;68.45
-Nauru;NRU;63.617
-New Zealand;NZL;82.2073170731707
-OECD members;OED;78.7154869155025
-Oman;OMN;72.541
-Other small states;OSS;66.9896229202087
-Pakistan;PAK;66.098
-Panama;PAN;76.223
-Peru;PER;72.377
-Philippines;PHL;69.266
-Palau;PLW;
-Papua New Guinea;PNG;65.351
-Poland;POL;75.6024390243903
-Pre-demographic dividend;PRE;59.87258063232
-Puerto Rico;PRI;80.162
-Korea, Dem. People's Rep.;PRK;73.284
-Portugal;PRT;81.0731707317073
-Paraguay;PRY;70.262
-West Bank and Gaza;PSE;73.473
-Pacific island small states;PSS;69.1635941828432
-Post-demographic dividend;PST;79.7977140117583
-French Polynesia;PYF;79.486
-Qatar;QAT;79.272
-Romania;ROU;72.9609756097561
-Russian Federation;RUS;69.3612195121951
-Rwanda;RWA;66.072
-South Asia;SAS;67.5791290463818
-Saudi Arabia;SAU;76.936
-Sudan;SDN;65.267
-Senegal;SEN;67.093
-Singapore;SGP;83.4414634146342
-Solomon Islands;SLB;70.348
-Sierra Leone;SLE;60.062
-El Salvador;SLV;70.748
-San Marino;SMR;
-Somalia;SOM;55.28
-Serbia;SRB;72.7307317073171
-Sub-Saharan Africa (excluding high income);SSA;60.2406378326655
-South Sudan;SSD;54.975
-Sub-Saharan Africa;SSF;60.2417434631864
-Small states;SST;67.8224389438784
-Sao Tome and Principe;STP;67.591
-Suriname;SUR;70.274
-Slovak Republic;SVK;74.7146341463415
-Slovenia;SVN;80.8756097560976
-Sweden;SWE;83.1560975609756
-Eswatini;SWZ;57.066
-Sint Maarten (Dutch part);SXM;73.972
-Seychelles;SYC;73.3975609756097
-Syrian Arab Republic;SYR;72.063
-Turks and Caicos Islands;TCA;74.587
-Chad;TCD;52.525
-East Asia & Pacific (IDA & IBRD countries);TEA;75.5711934120901
-Europe & Central Asia (IDA & IBRD countries);TEC;71.8692448544197
-Togo;TGO;61.619
-Thailand;THA;78.715
-Tajikistan;TJK;71.594
-Turkmenistan;TKM;69.264
-Latin America & the Caribbean (IDA & IBRD countries);TLA;72.0749025193054
-Timor-Leste;TLS;67.737
-Middle East & North Africa (IDA & IBRD countries);TMN;71.8811305367081
-Tonga;TON;70.986
-South Asia (IDA & IBRD);TSA;67.5791290463818
-Sub-Saharan Africa (IDA & IBRD countries);TSS;60.2417434631864
-Trinidad and Tobago;TTO;72.971
-Tunisia;TUN;73.772
-Turkiye;TUR;76.032
-Tuvalu;TUV;64.547
-Tanzania;TZA;66.201
-Uganda;UGA;62.705
-Ukraine;UKR;69.6478048780488
-Upper middle income;UMC;74.6931575904076
-Uruguay;URY;75.436
-United States;USA;76.3292682926829
-Uzbekistan;UZB;70.862
-St. Vincent and the Grenadines;VCT;69.629
-Venezuela, RB;VEN;70.554
-British Virgin Islands;VGB;74.494
-Virgin Islands (U.S.);VIR;80.0682926829268
-Viet Nam;VNM;73.618
-Vanuatu;VUT;70.449
-World;WLD;71.3268654207617
-Samoa;WSM;72.767
-Kosovo;XKX;76.806
-Yemen, Rep.;YEM;63.753
-South Africa;ZAF;62.341
-Zambia;ZMB;61.223
-Zimbabwe;ZWE;59.253
-</pre>
+  <body class="bg-gray-50">
+
+      <header id="navbar" class="bg-[#111827] text-white shadow-xl backdrop-blur-sm bg-opacity-95 sticky top-0 z-50">
+          <div class="max-w-screen-xl mx-auto px-6 sm:px-8 py-4">
+              <div class="flex items-center justify-between">
+                  <a href="#"
+                      class="text-white text-3xl font-bold flex items-center gap-2 hover:text-pink-500 transition duration-300">
+                      <i class="fa-solid fa-code"></i>
+                      <span class="tracking-wide">Csdev<span class="text-pink-500">.dev</span></span>
+                  </a>
+
+                  <nav class="hidden md:flex space-x-10">
+                      <a href="#home"
+                          class="text-white text-lg font-medium hover:text-pink-400 transition duration-300 flex items-center gap-2">
+                          <i class="fa-solid fa-house"></i> Home
+                      </a>
+                      <a href="#sobre"
+                          class="text-white text-lg font-medium hover:text-pink-400 transition duration-300 flex items-center gap-2">
+                          <i class="fa-regular fa-comment"></i> Sobre
+                      </a>
+                      <a href="view/pages/portfolio.html"
+                          class="text-white text-lg font-medium hover:text-pink-400 transition duration-300 flex items-center gap-2">
+                          <i class="fa-solid fa-user-tie"></i> Portfólio
+                      </a>
+                  </nav>
+
+                  <div class="hidden md:flex">
+                      <a href="#contato"
+                          class="bg-gradient-to-r from-pink-600 to-pink-500 hover:from-pink-500 hover:to-pink-400 text-white px-6 py-2 rounded-full font-semibold shadow-md transition duration-300 flex items-center gap-2">
+                          <i class="fa-regular fa-id-badge"></i> Fale Conosco
+                      </a>
+                  </div>
+
+                  <div class="md:hidden">
+                      <button id="menuToggle" class="text-white focus:outline-none">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+
+              <div id="mobileMenu" class="md:hidden mt-4 space-y-4 hidden">
+                  <a href="#home"
+                      class="block text-white text-lg font-medium hover:text-pink-400 transition duration-300 flex items-center gap-2">
+                      <i class="fa-solid fa-house"></i> Home
+                  </a>
+                  <a href="#sobre"
+                      class="block text-white text-lg font-medium hover:text-pink-400 transition duration-300 flex items-center gap-2">
+                      <i class="fa-regular fa-comment"></i> Sobre
+                  </a>
+                  <a href="view/pages/portfolio.html"
+                      class="block text-white text-lg font-medium hover:text-pink-400 transition duration-300 flex items-center gap-2">
+                      <i class="fa-solid fa-user-tie"></i> Portfólio
+                  </a>
+                  <a href="#contato"
+                      class="block bg-gradient-to-r from-pink-600 to-pink-500 hover:from-pink-500 hover:to-pink-400 text-white px-6 py-2 rounded-full font-semibold shadow-md transition duration-300 flex items-center gap-2">
+                      <i class="fa-regular fa-id-badge"></i> Fale Conosco
+                  </a>
+              </div>
+          </div>
+      </header>
+
+      <section class="bg-white dark:bg-gray-900">
+          <div class="container px-6 py-10 mx-auto">
+              <div class="lg:flex lg:-mx-6">
+                  <div class="lg:w-3/4 lg:px-6">
+                      <iframe class="w-full h-64 object-cover rounded-t-lg" width="560" height="315"
+                          src="https://www.youtube.com/embed/BkCxcel-aqQ?si=eCmBhdGs5lX-ekpj"
+                          title="YouTube video player" frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                      <div class="mt-8">
+                          <p class="mt-6 text-sm text-blue-500 uppercase">13/04/2025</p>
+
+                          <h1
+                              class="max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800 dark:text-white">
+                              Sistema de Agendamento para Clínica Estética
+                          </h1>
+
+                          <div class="flex items-center mt-6">
+                              <img class="object-cover object-center w-10 h-10 rounded-full" src="https://s5.static.brasilescola.uol.com.br/be/2025/01/representacao-do-mito-de-sisifo.jpg" alt="Carlos Henrique">
+
+                              <div class="mx-4">
+                                  <h1 class="text-sm text-gray-700 dark:text-gray-200">Carlos Henrique</h1>
+                                  <p class="text-sm text-gray-500 dark:text-gray-400">Developer</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="mt-8 lg:w-1/4 lg:mt-0 lg:px-6">
+                      <div>
+                          <h3 class="text-blue-500 capitalize text-lg font-semibold">Tecnologias utilizadas</h3>
+                          <div class="flex flex-wrap items-center gap-4 mt-2">
+                              <div class="tech-icon bg-[#E44D26] p-2 rounded-full text-white">
+                                  <i class="fab fa-html5 text-2xl"></i>
+                              </div>
+                              <div class="tech-icon bg-[#1572B6] p-2 rounded-full text-white">
+                                  <i class="fab fa-css3-alt text-2xl"></i>
+                              </div>
+                              <div class="tech-icon bg-[#563D7C] p-2 rounded-full text-white">
+                                  <i class="fab fa-bootstrap text-2xl"></i>
+                              </div>
+                              <div class="tech-icon bg-[#8CC84B] p-2 rounded-full text-white">
+                                  <i class="fab fa-node text-2xl"></i>
+                              </div>
+                              <div class="tech-icon bg-[#4DB33D] p-2 rounded-full text-white">
+                                  <i class="fas fa-database text-2xl"></i>
+                              </div>
+                              <div class="tech-icon bg-[#DD4B25] p-2 rounded-full text-white">
+                                  <i class="fab fa-electron text-2xl"></i>
+                              </div>
+                          </div>
+                          <p class="mt-2 text-gray-500 dark:text-gray-400">Este projeto foi desenvolvido utilizando as
+                              mais recentes tecnologias, incluindo HTML, CSS, Bootstrap, Electron, Node.js e SQLite. O
+                              sistema de agendamento permite a gestão de horários de clientes de uma clínica estética
+                              de maneira prática e eficiente.</p>
+                      </div>
+
+                      <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                      <div>
+                          <h3 class="text-blue-500 capitalize text-lg font-semibold">Valor</h3>
+                          <p class="mt-2 font-semibold text-gray-800 dark:text-white">R$ 100,00</p>
+                      </div>
+
+                      <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                      <div>
+                          <h3 class="text-blue-500 capitalize text-lg font-semibold">Acessar o projeto</h3>
+                          <a href="https://github.com/seuusuario/projeto-agendamento" target="_blank"
+                              class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400">
+                              Clique aqui para acessar o código no GitHub
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="bg-gray-50 dark:bg-gray-900">
+          <div class="container px-6 py-12 mx-auto">
+              <div>
+                  <p class="font-medium text-blue-500 dark:text-blue-400">Fale comigo</p>
+
+                  <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Converse
+                      diretamente comigo</h1>
+
+                  <p class="mt-3 text-gray-500 dark:text-gray-400">Se você tem alguma dúvida, sugestão ou precisa de
+                      ajuda, é só me chamar. Preencha o formulário abaixo ou me mande um e-mail.</p>
+              </div>
+
+              <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+                  <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
+                      <div>
+                          <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7l5 5-5 5m7 0h4a2 2 0 002-2V6a2 2 0 00-2-2h-4a2 2 0 00-2 2v10a2 2 0 002 2h4" />
+                              </svg>
+                          </span>
+                          <h2 class="mt-2 text-lg font-semibold text-gray-800 dark:text-white">Desenvolvimento Web
+                          </h2>
+                      </div>
+
+                      <div>
+                          <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7l5 5-5 5m7 0h4a2 2 0 002-2V6a2 2 0 00-2-2h-4a2 2 0 00-2 2v10a2 2 0 002 2h4" />
+                              </svg>
+                          </span>
+                          <h2 class="mt-2 text-lg font-semibold text-gray-800 dark:text-white">GitHub</h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
-<style>
-  #container {
-  height: 500px;
-  min-width: 310px;
-  max-width: 800px;
-  margin: 0 auto;
-}
+      <section class="bg-white dark:bg-gray-900">
+          <div class="container px-6 py-12 mx-auto">
+              <div>
+                  <p class="font-medium text-blue-500 dark:text-blue-400">Fale comigo</p>
 
-#csv {
-  display: none;
-}
-</style>
+                  <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Converse
+                      diretamente comigo</h1>
+
+                  <p class="mt-3 text-gray-500 dark:text-gray-400">Se você tem alguma dúvida, sugestão ou precisa de
+                      ajuda, é só me chamar. Preencha o formulário abaixo ou me mande um e-mail.</p>
+              </div>
+
+              <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+                  <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
+                      <div>
+                          <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                              <!-- ícone de e-mail -->
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                              </svg>
+                          </span>
+
+                          <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                          <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Você pode falar diretamente comigo
+                              por e-mail.</p>
+                          <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">cshsilva@cshsilva.site</p>
+                      </div>
 
 
-<script>(async () => {
 
-  const topology = await fetch(
-    'https://code.highcharts.com/mapdata/custom/world.topo.json'
-  ).then(response => response.json());
+                      <div>
+                          <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                              <!-- ícone de localização -->
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                              </svg>
+                          </span>
 
-  Highcharts.mapChart('container', {
-    chart: {
-      map: topology
-    },
+                          <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Localização</h2>
+                          <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Moro atualmente em Sorriso - MT,
+                              Brasil.</p>
+                      </div>
 
-    title: {
-      text: 'Life expectancy by country (2021)',
-      align: 'left'
-    },
+                      <div>
+                          <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                              <!-- ícone de telefone -->
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                              </svg>
+                          </span>
 
-    credits: {
-      href: 'https://data.worldbank.org',
-      mapText: ' Data source: The World Bank'
-    },
+                          <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Telefone</h2>
+                          <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">De segunda a sexta, das 8h às 17h.
+                          </p>
+                          <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+55 (00) 000-000</p>
+                      </div>
+                  </div>
 
-    mapNavigation: {
-      enabled: true,
-      buttonOptions: {
-        verticalAlign: 'bottom'
-      }
-    },
+                  <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+                      <form>
+                          <div class="-mx-2 md:items-center md:flex">
+                              <div class="flex-1 px-2">
+                                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Seu nome</label>
+                                  <input id="nome" type="text" placeholder="Carlos" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                              </div>
 
-    colorAxis: {
-      min: 60
-    },
+                              <div class="flex-1 px-2 mt-4 md:mt-0">
+                                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
+                                  <input id="email" type="email" placeholder="seuemail@exemplo.com" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                              </div>
+                          </div>
 
-    data: {
-      csv: document.getElementById('csv').innerText,
-      seriesMapping: [{
-        code: 1,
-        value: 2
-      }]
-    },
+                          <div class="w-full mt-4">
+                              <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Mensagem</label>
+                              <textarea id="conteudo" class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Escreva sua mensagem aqui..."></textarea>
+                          </div>
 
-    tooltip: {
-      valueDecimals: 1,
-      valueSuffix: ' years'
-    },
+                          <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                              Enviar mensagem
+                          </button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-    series: [{
-      name: 'Life expectancy',
-      joinBy: ['iso-a3', 'code'],
-      dataLabels: {
-        enabled: true,
-        format: '{point.value:.0f}',
-        filter: {
-          operator: '>',
-          property: 'labelrank',
-          value: 250
-        },
-        style: {
-          fontWeight: 'normal'
-        }
-      }
-    }]
-  });
 
-})();</script>
-</body>
-</html>
+      <script src="../script/menu.js"></script>
+  </body>
+
+  </html>
