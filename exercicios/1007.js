@@ -2,7 +2,7 @@ function findUniq(arr) {
     const count = {
 
     }
-
+    
     arr.forEach(data => {
         !count[data] ? (count[data] = 1) : ++count[data];
     });
