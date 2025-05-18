@@ -13,4 +13,7 @@ function toCamelCase( string $str){
 }
 
 var_dump(toCamelCase('the-stealth-warrior'));
+
+
+
 ?>
