@@ -15,7 +15,7 @@ function digital_root($number)
     $soma = array_reduce($str, function ($a, $b) {
         return $a + $b;
     }, 0);
-
+    
     return $soma;
 }
 
