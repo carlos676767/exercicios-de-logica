@@ -10,8 +10,8 @@ function get_drink_by_profession(string $s) {
     "Rapper" => "Cristal"
 ];
 
+$s = ucwords(strtolower($s));
 return $drinkByProfession[$s] ?? "Beer" ;
 }
-
 
 var_dump(get_drink_by_profession("o"));
