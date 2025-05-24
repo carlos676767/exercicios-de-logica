@@ -5,3 +5,4 @@ function move(int $pos, int $roll): int {
 }
 
 echo move(3, 6);
+
