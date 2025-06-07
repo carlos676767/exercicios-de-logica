@@ -11,3 +11,4 @@ const subArray = (arr) => {
 
   return Math.max(...subarrays.map((char) => char.reduce((a, b) => a + b, 0)));
 };
+
