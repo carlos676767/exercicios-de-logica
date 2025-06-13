@@ -7,4 +7,7 @@ function countBits($n)
 
 var_dump(countBits(1234));
 
+function nArmstrong($n){
+    
+}
 ?>
