@@ -15,7 +15,6 @@ final class reafilephp
 
         $strSplit = explode(" ", $file);
 
-
         $strCount = [];
 
         for ($i=0; $i < count($strSplit); $i++) { 
@@ -27,7 +26,7 @@ final class reafilephp
         }
 
 
-     
+        
         return  [
              "o total de caractres " . $countStr,
             "o numero total de palavras " . count($strSplit),
