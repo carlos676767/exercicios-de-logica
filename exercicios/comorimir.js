@@ -13,9 +13,11 @@ const comorimir = (char) => {
   
     const uniqueKeys = Array.from(new Set(char))
    
-    const valuesCountys = uniqueKeys.map(myStr=> {
-      return myStr + countObject[myStr]
-    }).join(``)
+    const valuesCountys = uniqueKeys
+      .map((myStr) => {
+        return myStr + countObject[myStr];
+      })
+      .join(``);
   
     
   
