@@ -5,7 +5,7 @@ function detect_pangram($string) {
     $string = preg_replace('/[^a-zA-Zá-úÁ-Úà-ùÀ-ÙãõÃÕêÊçÇ]/u','', $string );
     $string = str_split($string);
 
-    return array_unique($string);
+    return count(array_unique($string)) == 26;
 
 }
 
