@@ -52,5 +52,3 @@ final  class Classhigh
 }
 
 print_r(Classhigh::high('man i need a taxi up to ubud'));
-
-
