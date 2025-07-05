@@ -17,6 +17,5 @@ function sortArray(array $arr)
     return $arr;
 }
 
-
-
 var_dump(sortArray([5, 8, 6, 3, 4]));
+
