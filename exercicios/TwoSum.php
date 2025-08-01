@@ -21,3 +21,9 @@ function TwoSum(array $list, int $value)
 
 
 var_dump(TwoSum([2, 7, 11, 15, 44, 865, 10, 5], 15));
+
+
+
+
+
+
