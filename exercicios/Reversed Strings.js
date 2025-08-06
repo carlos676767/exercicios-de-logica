@@ -6,6 +6,6 @@ function solution(str) {
     --i;
     value += str[i];
   }
-
+  
   return value;
 }
