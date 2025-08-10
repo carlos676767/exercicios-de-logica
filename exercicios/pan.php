@@ -36,6 +36,7 @@ function detect_pangram($string) {
             $valueEnd .= $min[$i];
         }
     }
-
+    
     return strlen($valueEnd) === 26;
 }
+
