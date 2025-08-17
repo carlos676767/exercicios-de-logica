@@ -18,4 +18,6 @@ function validarPa( string $str){
 
 var_dump(validarPa(("(2+3)*(4-1)")));
 
+
+
 ?>
