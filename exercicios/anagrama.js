@@ -11,3 +11,5 @@ const anagrama = (str1, str2) => {
 }
 
 console.log(anagrama(`amor`, `roma`))
+
+`sss`.tostring()
