@@ -17,3 +17,5 @@ function solution(int $number): int
 
     return $sum;
 }
+
+
