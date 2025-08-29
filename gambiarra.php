@@ -17,3 +17,26 @@ function solution(int $number) {
        }
    ,0);
 }
+
+
+
+function bumpCounter(string $ants) {
+    
+    $count = "";
+
+    for ($i=0; $i < strlen($ants); $i++) { 
+       if ($ants[$i] == "R" || $ants[$i] == "L") {
+        $count .= "0";
+       }
+
+       if ($ants[$i] != $ants[$i+ 1]) {
+        $count .= "1";
+       }
+    }
+    
+    return   $count;
+
+}
+
+
+var_dump(bumpCounter("RRL"));
