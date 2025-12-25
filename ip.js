@@ -11,7 +11,6 @@ function isValidIP(str) {
   
     for (let i = 0; i < test.length; i++) {
   
-      // valor inválido (NaN ou fora do range)
       if (isNaN(test[i]) || test[i] > 255 || test[i] < 0) {
         return false;
       }
