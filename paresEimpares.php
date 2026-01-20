@@ -12,6 +12,7 @@ function arrayResults(array $list): mixed
             $ass["impares"][] = $list[$i];
         }
     }
+    
     return [
         "maior" => max($list),
         "min" => min($list),
