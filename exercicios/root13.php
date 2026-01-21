@@ -1,8 +1,6 @@
 <?php
 
 
-
-
 final class Root13
 {
     public static  function solution(string $str): string
