@@ -1,19 +1,22 @@
 <?php
 
-function dashtize(string $num)
+function dashtize(string $num) : string 
 {
 
     $getNewNumberJoin = null;
 
-    for ($i = 0; $i < strlen($num); $i++) {
+    $defaultNumber0 = 0;
+    $defaultNumber2 = 2;
+
+    for ($i = $defaultNumber0; $i < strlen($num); $i++) {
 
         $converterStrInNumber = (int) $num[$i];
 
-        if ($converterStrInNumber < 0) {
+        if ($converterStrInNumber < $defaultNumber0) {
             $converterStrInNumber = $converterStrInNumber * -1;
         }
 
-        if ($converterStrInNumber % 2 !== 0) {
+        if ($converterStrInNumber % $defaultNumber2 !== $defaultNumber0) {
             $getNewNumberJoin .= "-" . $converterStrInNumber . "-";
         } else {
             $getNewNumberJoin .= $converterStrInNumber;
