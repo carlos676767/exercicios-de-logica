@@ -1,6 +1,6 @@
 <?php
 
-function dashtize(string $num) : string 
+function dashtize(string $num): string
 {
 
     $getNewNumberJoin = null;
