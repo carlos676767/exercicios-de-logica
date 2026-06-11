@@ -1,10 +1,9 @@
 function factorial(n) {
-    let num = 1;
-    for (let i = n; i >= 1; i--) {
-      num *= i;
-    }
-    return num;
+  let num = 1;
+  for (let i = n; i >= 1; i--) {
+    num *= i;
   }
-  
-  console.log(factorial(5));
-  
+  return num;
+}
+
+console.log(factorial(5));
