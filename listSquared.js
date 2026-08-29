@@ -4,10 +4,10 @@ function listSquared(m, n) {
     for (let i = m; i <= n; i++) {
       let sum = 0
   
-      for (let menage = 1; menage <= i; menage++) {
+      for (let acc = 1; acc <= i; acc++) {
   
-        if (i % menage === 0) {
-          sum += Math.pow(menage, 2)
+        if (i % acc === 0) {
+          sum += Math.pow(acc, 2)
         }
       }
   
