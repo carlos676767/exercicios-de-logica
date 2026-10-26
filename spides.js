@@ -1,14 +1,13 @@
 function defineSuit(card) {
     const cartas = {
-      "♣": "clubs",
-      "♦": "diamonds",
-      "♥": "hearts",
-      "♠": "spades",
+        "♣": "clubs",
+        "♦": "diamonds",
+        "♥": "hearts",
+        "♠": "spades",
     };
-  
+
     const indice = [card.length - 1];
     return cartas[card[indice]]
-  }
-  
-  console.log(defineSuit("3♠"));
-  
+}
+
+console.log(defineSuit("3♠"));
